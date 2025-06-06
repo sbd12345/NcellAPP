@@ -32,7 +32,7 @@ public class BestOfferTest extends BaseTest {
     }
 
     @AfterSuite (alwaysRun = true)
-   public static void sendAutomationReports() {
+   public  void sendAutomationReports() {
         try {
             logger.info("Preparing to send test reports via email");
             EmailUtil.sendReportsWithLogs();
