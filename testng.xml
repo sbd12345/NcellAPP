@@ -6,7 +6,7 @@
     <test name="App Tests">
         <classes>
             <class name="Test.BestOfferTest"/>
-            <class name="Test.SearchBoxTest"/>
+            <class name="Test.HistoryandFavouriteTest"/>
         </classes>
     </test>
 </suite>
