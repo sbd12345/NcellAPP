@@ -33,7 +33,7 @@ public class SearchBoxTest extends BaseTest {
         }
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
     public static void sendAutomationReports() {
         try {
             logger.info("Preparing to send test reports via email");
