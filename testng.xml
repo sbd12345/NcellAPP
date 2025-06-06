@@ -5,7 +5,8 @@
     </listeners>
     <test name="App Tests">
         <classes>
-            <class name="Test.BeemaPackTest"/>
+            <class name="Test.BestOfferTest"/>
+            <class name="Test.SearchBoxTest"/>
         </classes>
     </test>
 </suite>
